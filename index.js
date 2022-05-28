@@ -52,7 +52,7 @@ function lakukanLooping(arrPegawai) {
   
   dataYangAkanDilooping.forEach((el) => {
   	// TODO 1
-  	hasilLooping.push(el.namaDepan + el.namaBelakang)
+  	hasilLooping.push(el.namaDepan + ' ' + el.namaBelakang)
   	// TODO 2, 3
   	if(el.jenisKelamin == 'M') {
   		jumlahPria++
